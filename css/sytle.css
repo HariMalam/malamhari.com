@@ -24,7 +24,6 @@ body{
     margin: 10px;
     border: 4px solid black;
     margin-bottom: 30px;
-
 }
 
 .head h1{
@@ -46,6 +45,7 @@ body{
     display: flex;
     text-align: center;
     justify-content: center;
+    width: auto;
 }
 
 .personal_details{
@@ -57,12 +57,16 @@ body{
     height: 280px;
     padding: 10px;
     margin-bottom: 30px;
+    width: auto;
 }
 
 .personal_details table{
-    width: 100%;
+    width: 700px;
     text-align: left;
-    padding-left: 54px;
+    padding-left: 4px;
+}
+.personal_details td{
+    padding: 1px;
 }
 
 h2{
@@ -78,15 +82,17 @@ h2{
     margin: 10px;
     padding: 10px;
     margin-bottom: 30px;
+    width: auto;
 }
 
 .education_details table{
-    width: 90%;
+    width: 500px;
     height: 80%;
     text-align: center;
-    margin-left: 40px;
+    margin-left: 4px;
+    margin-top: 10px;
     border-collapse: collapse;
-    border-color: #c6c6c6;
+    border-color: #bcbcbc;
 }
 
 .skills{
@@ -96,6 +102,8 @@ h2{
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
+    margin-bottom: 30px;
+    width: auto;
 }
 .skills table{
     padding: 10px;
@@ -105,6 +113,7 @@ h2{
 
 .skill{
     display: flex;
+    justify-content: space-between;
 }
 
 .top img{
@@ -119,4 +128,75 @@ h2{
     display: flex;
 }
 
+.experience{
+    background-color: white;
+    height: 280px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 45%;
+    margin-bottom: 30px;
+
+}
+.experience table{
+    background-color: white;
+    height: 80%;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    border-color: #bcbcbc;
+}
+
+.declaration{
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 1090px){
+    .main{
+        margin: 20px;
+    }
+    .personal_details table{
+        width: 600px;
+        padding: 0;
+        margin: 0;
+    }
+    .personal_details{
+        width: 70%;
+        padding: 10px;
+        margin: 0;
+    }
+    .photo{
+        margin: 0;
+        width: auto;
+        padding: 10px;
+
+    }
+
+    .education_details{
+        width: 100%;
+        margin: 0;
+        margin-top: 40px;
+    }
+    .education_details table{ 
+        width: 100%;
+    }
+
+    .skills{
+        width: 100%;
+        margin: 0;
+        margin-top: 40px;
+    }
+    .experience{
+        width: 100%;
+        margin: 0;
+        margin-top: 40px;
+    }
+}
 
