@@ -71,6 +71,7 @@ body{
 h2{
     padding: 2px;
     font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .education_details{
@@ -89,7 +90,6 @@ h2{
     height: 80%;
     text-align: center;
     margin-left: 4px;
-    margin-top: 10px;
     border-collapse: collapse;
     border-color: #bcbcbc;
 }
@@ -143,18 +143,15 @@ h2{
     border-radius: 10px;
     width: 100%;
     text-align: center;
-    margin-top: 10px;
     border-color: #bcbcbc;
 }
 
 .declaration{
-    background-color: white;
     width: 100%;
-    height: auto;
-    padding: 10px;
-    margin: 10px;
     border-radius: 10px;
-    margin-bottom: 30px;
+    background-color: white;
+    margin-top: 30px;
+    padding: 10px;
 }
 
 
@@ -193,6 +190,7 @@ h2{
         margin: 0;
         margin-top: 40px;
     }
+
     .experience{
         width: 100%;
         margin: 0;
